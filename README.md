@@ -1,11 +1,10 @@
-# Dawn Validator Bot
-Automation farming Script for Dawn Validator using proxies. This bot support multi accounts.
+# Dawn Bot
+Automated farming script for Dawn Validator using proxies, supporting multiple accounts.
 ### Tools and components required
 1. Dawn Validator Account | Download [Dawn Validator Extension](https://chromewebstore.google.com/detail/dawn-validator-chrome-ext/fpdkjdnhkakefebpekbdhillbhonfjjp)
-2. Open ``chrome-extension://fpdkjdnhkakefebpekbdhillbhonfjjp/signup.html``, insert Referral code ``rj6ektjg`` and Register
-3. Proxies Static Residental | [FREE 10 PREMIUM PROXIES](https://www.webshare.io/?referral_code=p7k7whpdu2jg) | Good Premium Proxies (paid): [922proxy](https://www.922proxy.com/register?inviter_code=d03d4fed), [proxy-cheap](https://app.proxy-cheap.com/r/JysUiH), [infatica](https://dashboard.infatica.io/aff.php?aff=544)
-4. VPS or RDP (OPTIONAL)
-5. Python version 3.10 and above
+2. Open ``chrome-extension://fpdkjdnhkakefebpekbdhillbhonfjjp/signup.html``, insert Referral code ``mmwhsvp7`` and Register
+3. VPS or RDP (OPTIONAL)
+4. Python version 3.10 and above
 ## Getting Token
 - Open ``chrome-extension://fpdkjdnhkakefebpekbdhillbhonfjjp/dashboard.html`` in your browser and login
 - Press F12 or CTRL+SHIFT+I and Select Network
@@ -19,15 +18,11 @@ email:token
 email:token
 ```
 # Installation
-- Install Python For Windows: [Python](https://www.python.org/ftp/python/3.13.0/python-3.13.0-amd64.exe)
-- For Unix: ``apt install python3 python3-pip -y``
+- Install Python For Windows: [Python](https://www.python.org/downloads/release/python-3110/)
 - Install requirements, Windows:
 ```bash
 pip install -r requirements.txt
 ```
-- Unix:
-```bash
-pip3 install -r requirements.txt
 ```
 ### Run the Bot
 - Replace the proxies example in ```proxies.txt``` to your own proxies
@@ -36,20 +31,12 @@ pip3 install -r requirements.txt
 ```bash
 python main.py
 ```
-- Unix
-```bash
-python3 main.py
-```
 - Select: 1
 - Then insert your email and token
 #### Run for multi accounts
 - Windows:
 ```bash
 python main.py
-```
-- Unix
-```bash
-python3 main.py
 ```
 - Select: 2
 # Notes
